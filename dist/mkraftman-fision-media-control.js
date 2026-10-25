@@ -155,6 +155,9 @@ class MkraftmanFisionMediaControl extends HTMLElement {
         .ctrl.skip ha-icon {
           --mdc-icon-size: 28px;
         }
+        .ctrl.mirror ha-icon {
+          transform: scaleX(-1);
+        }
       </style>
 
       <ha-card>
@@ -166,8 +169,8 @@ class MkraftmanFisionMediaControl extends HTMLElement {
         <div class="player">
           <div class="name" id="name"></div>
           <div class="controls">
-            <button class="ctrl skip" id="prev">
-              <ha-icon icon="mdi:replay"></ha-icon>
+            <button class="ctrl skip mirror" id="prev">
+              <ha-icon icon="mdi:debug-step-over"></ha-icon>
             </button>
             <button class="ctrl" id="rw">
               <ha-icon icon="mdi:rewind"></ha-icon>
@@ -179,7 +182,7 @@ class MkraftmanFisionMediaControl extends HTMLElement {
               <ha-icon icon="mdi:fast-forward"></ha-icon>
             </button>
             <button class="ctrl skip" id="next">
-              <ha-icon icon="mdi:refresh"></ha-icon>
+              <ha-icon icon="mdi:debug-step-over"></ha-icon>
             </button>
           </div>
         </div>
