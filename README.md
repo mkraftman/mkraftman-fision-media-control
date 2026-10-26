@@ -35,7 +35,7 @@ All options are optional:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| `name` | `Fision` | Title shown on the card |
+| `name` | `Fision Cable TV` | Title shown on the card |
 | `script` | `fision_send` | Script to call (with or without the `script.` prefix) |
 | `image` | `/local/images/fision.png` | Background artwork |
 

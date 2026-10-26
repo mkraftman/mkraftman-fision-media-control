@@ -7,7 +7,7 @@
  */
 
 const DEFAULTS = {
-  name: "Fision",
+  name: "Fision Cable TV",
   script: "fision_send",
   image: "/local/images/fision.png",
 };
